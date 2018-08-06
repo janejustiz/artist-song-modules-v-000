@@ -9,7 +9,7 @@ class Artist
 
   extend Findable
 
-  extend Paramable
+  include Paramable
 
   @@artists = []
 
