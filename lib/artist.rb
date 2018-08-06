@@ -9,6 +9,8 @@ class Artist
 
   extend Findable
 
+  extend Paramable
+
   @@artists = []
 
   def initialize
