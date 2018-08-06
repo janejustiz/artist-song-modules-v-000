@@ -9,6 +9,8 @@ class Song
 
   extend Findable
 
+  extend Paramable
+
   @@songs = []
 
   def initialize
