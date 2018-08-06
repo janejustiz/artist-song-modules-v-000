@@ -9,7 +9,7 @@ class Song
 
   extend Findable
 
-  extend Paramable
+  include Paramable
 
   @@songs = []
 
